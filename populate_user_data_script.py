@@ -6,8 +6,8 @@ schema = f"hirefy"
 
 db = harperdb.HarperDB(
     url="https://hirefy-projects.harperdbcloud.com",
-    username="Muneer",
-    password="hirefy123"
+    username="YOUR USERNAME",
+    password="YOUR PASSWORD"
     )
 
 def sqlquote(value):
