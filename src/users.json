@@ -1,0 +1,167 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "atuny0",
+            "password": "9uQFF1Lh",
+            "email": "atuny0@sohu.com",
+            "firstName": "Terry",
+            "lastName": "Medhurst"
+        },
+        {
+            "id": 2,
+            "username": "hbingley1",
+            "password": "CQutx25i8r",
+            "email": "hbingley1@plala.or.jp",
+            "firstName": "Sheldon",
+            "lastName": "Quigley"
+        },
+        {
+            "id": 3,
+            "username": "rshawe2",
+            "password": "OWsTbMUgFc",
+            "email": "rshawe2@51.la",
+            "firstName": "Terrill",
+            "lastName": "Hills"
+        },
+        {
+            "id": 4,
+            "username": "yraigatt3",
+            "password": "sRQxjPfdS",
+            "email": "yraigatt3@nature.com",
+            "firstName": "Miles",
+            "lastName": "Cummerata"
+        },
+        {
+            "id": 5,
+            "username": "kmeus4",
+            "password": "aUTdmmmbH",
+            "email": "kmeus4@upenn.edu",
+            "firstName": "Mavis",
+            "lastName": "Schultz"
+        },
+        {
+            "id": 6,
+            "username": "jtreleven5",
+            "password": "zY1nE46Zm",
+            "email": "jtreleven5@nhs.uk",
+            "firstName": "Alison",
+            "lastName": "Reichert"
+        },
+        {
+            "id": 7,
+            "username": "dpettegre6",
+            "password": "YVmhktgYVS",
+            "email": "dpettegre6@columbia.edu",
+            "firstName": "Oleta",
+            "lastName": "Abbott"
+        },
+        {
+            "id": 8,
+            "username": "ggude7",
+            "password": "MWwlaeWcOoF6",
+            "email": "ggude7@chron.com",
+            "firstName": "Ewell",
+            "lastName": "Mueller"
+        },
+        {
+            "id": 9,
+            "username": "nloiterton8",
+            "password": "HTQxxXV9Bq4",
+            "email": "nloiterton8@aol.com",
+            "firstName": "Demetrius",
+            "lastName": "Corkery"
+        },
+        {
+            "id": 10,
+            "username": "umcgourty9",
+            "password": "i0xzpX",
+            "email": "umcgourty9@jalbum.net",
+            "firstName": "Eleanora",
+            "lastName": "Price"
+        },
+        {
+            "id": 11,
+            "username": "acharlota",
+            "password": "M9lbMdydMN",
+            "email": "acharlota@liveinternet.ru",
+            "firstName": "Marcel",
+            "lastName": "Jones"
+        },
+        {
+            "id": 12,
+            "username": "rhallawellb",
+            "password": "esTkitT1r",
+            "email": "rhallawellb@dropbox.com",
+            "firstName": "Assunta",
+            "lastName": "Rath"
+        },
+        {
+            "id": 13,
+            "username": "lgribbinc",
+            "password": "ftGj8LZTtv9g",
+            "email": "lgribbinc@posterous.com",
+            "firstName": "Trace",
+            "lastName": "Douglas"
+        },
+        {
+            "id": 14,
+            "username": "mturleyd",
+            "password": "GyLnCB8gNIp",
+            "email": "mturleyd@tumblr.com",
+            "firstName": "Enoch",
+            "lastName": "Lynch"
+        },
+        {
+            "id": 15,
+            "username": "kminchelle",
+            "password": "0lelplR",
+            "email": "kminchelle@qq.com",
+            "firstName": "Jeanne",
+            "lastName": "Halvorson"
+        },
+        {
+            "id": 16,
+            "username": "dpierrof",
+            "password": "Vru55Y4tufI4",
+            "email": "dpierrof@vimeo.com",
+            "firstName": "Trycia",
+            "lastName": "Fadel"
+        },
+        {
+            "id": 17,
+            "username": "vcholdcroftg",
+            "password": "mSPzYZfR",
+            "email": "vcholdcroftg@ucoz.com",
+            "firstName": "Bradford",
+            "lastName": "Prohaska"
+        },
+        {
+            "id": 18,
+            "username": "sberminghamh",
+            "password": "cAjfb8vg",
+            "email": "sberminghamh@chron.com",
+            "firstName": "Arely",
+            "lastName": "Skiles"
+        },
+        {
+            "id": 19,
+            "username": "bleveragei",
+            "password": "UZGAiqPqWQHQ",
+            "email": "bleveragei@so-net.ne.jp",
+            "firstName": "Gust",
+            "lastName": "Purdy"
+        },
+        {
+            "id": 20,
+            "username": "aeatockj",
+            "password": "szWAG6hc",
+            "email": "aeatockj@psu.edu",
+            "firstName": "Lenna",
+            "lastName": "Renner"
+        }
+    ],
+    "total": 100,
+    "skip": 0,
+    "limit": 20
+}

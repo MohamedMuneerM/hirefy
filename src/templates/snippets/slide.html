@@ -1,0 +1,71 @@
+{% for item in slide_data %}
+<!-- add active programatically -->
+{% if loop.first %}
+    <div class="carousel-item active">
+{% else %}
+    <div class="carousel-item">
+{% endif %}
+
+    <div class="w-100 d-block">
+        <svg class="bd-placeholder-img" width="100%" height="700px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid meet" focusable="false"><rect width="100%" height="100%" fill="#1C5D99"></rect></svg>
+    </div>
+    <div class="container">
+        <div class="carousel-caption text-start">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <img class="p-2 h-100 rounded-pill" width="200px" height="200px" src="https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg" alt="user_profile_pic">
+                <div>
+                    <h2 id="username">
+                        {{ item['username']|capitalize }}
+                        {% if item['is_verified'] %}
+                            <i class="bi bi-patch-check-fill"></i> 
+                        {% else %}
+                            <i class="bi bi-exclamation-circle"></i>
+                        {% endif %}
+                    </h3>
+                    <p class="profile_caption fw-bold">
+                        {{ item['profile_caption']|capitalize }}
+                    <p>
+                    <p class="about lh-base">
+                        <h5 class="fw-bold">Bio </h5>
+                        {{ item['bio'] }} 
+                    </p>
+
+                    <div class="skills fs-5">
+                        <span class="fw-bold fs-5">Skills: </span>
+                        <span>{{ item['skills'] }}</span>
+                    </div>
+
+                    <div class="education mt-2">
+                        <h5 class="fw-bold">Education</h5>
+                        <ol>
+                            <li>
+                                <span>B.Tech in Computer Science</span>
+                                <span>University of Technology</span>
+                            </li>
+                            <li>
+                                <span>M.Tech in Computer Science</span>
+                                <span>University of Technology</span>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="view-profile d-flex flex-row justify-content-between">
+                        <span id="save-profile" hx-post="/save-applicant" 
+                        hx-trigger="click"
+                        hx-vals='{"applicant_id": "{{ item['id'] }}"}'
+                        hx-indicator="#indicator"
+                        hx-swap="innerHTML settle:1s">
+                            <button class="btn btn-info text-white">Save this profile</button>
+                        </span>
+                        <a href="/profiles/{{ item['id'] }}" target="_blank" class="btn btn-info text-white">View Profile</a>
+                        <a href="https://example.com/" target="_blank" class="btn btn-info text-white">View Resume</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+{% endfor %}

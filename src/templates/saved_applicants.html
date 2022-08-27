@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Saved applicants{% endblock %}
+
+{% block content %}
+
+    {% if saved_applicants|length > 0 %}
+        <div>
+            <ol class="list-group list-group-numbered">
+                {% for user in saved_applicants %}
+
+                <li class="list-group-item"><a href="/profiles/{{ user['id'] }}">{{ user['username'] }}</a> -- '{{ user['category'] }}'</li>
+                {% endfor %}
+            </ol>
+        </div>
+    {% else %}
+        <!-- {{ saved_applicants }} -->
+        <h3>NO APPLICANTS SAVED YET...</h3>
+    {% endif %}
+
+
+    
+
+
+{% endblock %}

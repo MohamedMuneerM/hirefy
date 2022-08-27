@@ -1,0 +1,13 @@
+{% for key, value in table_data.items() %}
+<tr>
+    <td><button hx-post="/slide" 
+        hx-trigger="click"
+        hx-include="#filters"
+        hx-vals='{"category": "{{ key }}"}'
+        hx-indicator="#indicator"
+        hx-target="#slide"
+        hx-swap="innerHTML"
+        id="table-form" value="{{ key }}" class="btn btn-link">{{ key }}</button></td>
+    <td>{{ value }}</td>           
+</tr>
+{% endfor %}

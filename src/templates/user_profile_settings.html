@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block title %} Applicant profile settings {% endblock %}
+
+
+{% block content %}
+<div class="container">
+    <form>
+        <div class="mb-3" method="POST">
+            <label for="username" class="form-label">Username</label>
+            <input value="{{ data['username'] }}" type="text" id="disabledInput" class="form-control" id="username" aria-describedby="emailHelp" disabled>
+        </div>
+        <div class="mb-3">
+            <label for="Display Name" class="form-label">Display Name</label>
+            <input value="{{ data['username'] }}" type="text" class="form-control" id="exampleInputPassword1" disabled>
+        </div>
+        <div class="mb-3">
+            <label for="Caption" class="form-label">Caption</label>
+            <input value="{{ data['profile_caption'] }}" placeholder="Your caption..." type="text" class="form-control" id="caption" disabled>
+        </div>
+
+        <div class="mb-3">
+            <label for="" class="form-label">Location</label>
+            <select class="form-select" aria-label="Default select example" disabled>
+                <option selected>{{ data['location'] }}</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="Caption" class="form-label">Category</label>
+            <select class="form-select" aria-label="Default select example" disabled>
+                <option selected>{{ data['category'] }}</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="experience level" class="form-label">Experience Level</label>
+            <select class="form-select" aria-label="Default select example" disabled>
+                <option selected>{{ data['experience_type'] }}</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="skills" class="form-label">skills</label>
+            <input value="{{ data['skills'] }}" type="text" class="form-control" id="caption" disabled>
+        </div>
+
+        <div class="mb-3">
+            <label for="about" class="form-label">About me</label>
+            <textarea value="{{ data['bio'] }}" name="about" class="form-control" cols="30" rows="10" disabled></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label for="education" class="form-label">Educational background</label>
+            <textarea name="educational_background" class="form-control" cols="30" rows="10" disabled></textarea>
+        </div>
+
+        <h3>Links</h3>
+
+        <div class="mb-3">
+            <label for="portfolio" class="form-label">Portfolio link</label>
+            <input type="url" name="portfolio" id="portfolio" class="form-control" disabled>
+        </div>
+
+        <div class="mb-3">
+            <label for="github" class="form-label">github link</label>
+            <input type="url" name="github" id="github" class="form-control" disabled>
+        </div>
+
+        <div class="mb-3">
+            <label for="twitter" class="form-label">twitter link</label>
+            <input type="url" name="twitter" id="twitter" class="form-control" disabled>
+        </div>
+
+        <!-- resume upload viewer add this element later -->
+
+        <button disabled type="submit" class="btn btn-primary disabled">Submit</button>
+
+    </form>
+</div>
+
+{% endblock %}
+   

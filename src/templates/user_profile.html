@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+
+
+{% block title %}{{ data['username'] }}'s profile{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+    <div class="d-flex flex-column justify-content-center">
+        <img class="img-thumbnail w-25 rounded-pill" width="200px" height="200px" src="https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg" alt="user_profile_pic">
+        <h3>
+            {{ data['username'] }} 
+            {% if data['is_verified'] %}
+                <i class="bi bi-patch-check-fill"></i> 
+            {% else %}
+                <i class="bi bi-exclamation-circle"></i>
+            {% endif %}
+        </h3> 
+        
+        <h5 class="profile_caption">
+            {{ data['profile_caption'] }}
+        </h5>
+        <p class="location">{{ data['location'] }}</p>
+        <span class="d-flex d-row justify-content-between">
+            <a href="https://example.com/" target="_blank">Github</a>
+            <a href="https://example.com/" target="_blank">Portfolio site</a>
+            <a href="https://example.com/" target="_blank">resume</a>
+        </span>
+        <hr>
+        <section class="about">
+            <h3>About</h3>
+            <p>
+                {{ data['bio'] }}
+            </p>
+        </section>
+
+        <hr>
+        
+        <section class="skills">
+            <div>
+                <h3>Skills</h3>
+                <span>{{ data['skills'] }}</span>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="education">
+            <h3>Education</h3>
+            <div>
+                <ol>
+                    <li>
+                        <span>B.Tech in Computer Science</span>
+                        <span>University of Technology</span>
+                    </li>
+                    <li>
+                        <span>M.Tech in Computer Science</span>
+                        <span>University of Technology</span>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="experience-profile">
+            <h3>Experience</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ratione dicta ut nam ullam error obcaecati? Saepe placeat, obcaecati similique neque omnis quisquam cum repellat eligendi provident expedita ipsum excepturi enim quae id, sequi natus illo voluptate magnam incidunt nemo! Maxime adipisci architecto doloremque voluptates ullam alias eveniet quam expedita provident excepturi consequatur quae temporibus ducimus repellat eligendi repellendus atque enim reprehenderit, ad perferendis odit distinctio! Quod quo assumenda laboriosam omnis possimus perferendis quibusdam nihil commodi temporibus! Cum perspiciatis minus repudiandae, earum vel molestiae doloremque laboriosam in accusantium, voluptas veniam aliquid minima cupiditate a. Doloremque harum molestiae voluptas temporibus eveniet.
+            </p>
+        </section>
+        
+    </div>
+</div>
+
+
+{% endblock %}
