@@ -1,0 +1,2 @@
+HIREFY_USERNAME = "Muneer"
+HIREFY_PASSWORD = "hirefy123"
