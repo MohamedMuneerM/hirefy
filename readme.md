@@ -68,7 +68,7 @@ If i am continuing with this project, i would like to make this platform more sk
 
 I would also like to add advanced filters and bring improvements to UI/UX.
 
-## Acknowlegments
+## Acknowledgement
 
 Thanks Dennis Ivy and partners [Harperdb](https://harperdb.io/) and [Agora](https://www.agora.io/en/) for sponsoring this hackathon. This hackathon will help the participants gain new experiences and not only that the winners will have some sort an encouragement to go on and pursue thier passion.
 
