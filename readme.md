@@ -2,7 +2,7 @@
 
 ## Features
 1. No login required for the hiring managers to view and save the potential applicants.
-2. All the applicants in this platform are verifed and constantly being verifed by the hirefy team.
+2. All the applicants in this platform are verified and constantly being verified by the hirefy team.
 3. Reduced clicks, so less hassle compared to other platforms.
 4. Simple UI, so your not distracted.
 4. If you are an applicant, you have to signup with a simple signup form and just need to provide the necessary details to showcase your skills to the hiring managers.
